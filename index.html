@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SGM STUDIO — Santiago Gómez · Diseño UX/UI</title>
+  <meta name="description" content="SGM STUDIO: estudio personal de Santiago Gómez, diseñador de medios interactivos en Cali, Colombia. UX research, UI, prototipos y productos digitales centrados en el usuario." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVEGACIÓN -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="logo">SGM<span>STUDIO</span></a>
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span>
+      </button>
+      <nav class="nav__menu" id="menu">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#propuesta" class="btn btn--small">Trabajemos juntos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow">UX/UI · Product Design · Disponible para nuevos proyectos</p>
+          <h1>Convierto ideas en productos digitales <em>claros</em>, útiles y listos para crecer.</h1>
+          <p class="lead">Soy Santiago Gómez, diseñador UX/UI y de producto. Acompaño a empresas y emprendedores desde la investigación con usuarios hasta el prototipo validado, para que cada decisión de diseño tenga un porqué.</p>
+          <div class="hero__actions">
+            <a href="#propuesta" class="btn">Iniciar un proyecto</a>
+            <a href="#proyectos" class="btn btn--ghost">Ver mi trabajo</a>
+          </div>
+        </div>
+        <figure class="hero__photo">
+          <img src="img/perfil.jpg" alt="Santiago Gómez, diseñador UX/UI" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="section" id="sobre-mi">
+      <div class="container about">
+        <h2 class="section__title"><span>01</span> Sobre mí</h2>
+        <div class="about__body">
+          <p class="about__big">Diseño con evidencia: primero entiendo a las personas, después diseño la solución.</p>
+          <p>Soy Diseñador de Medios Interactivos de la Universidad Icesi, especializado en UX/UI y diseño de producto. He trabajado en proyectos para EMCALI y enerBit, liderando investigación, definiendo flujos y diseñando interfaces que simplifican procesos reales. Combino empatía, pensamiento estratégico y trabajo cercano con equipos de tecnología, negocio y comunicaciones.</p>
+          <ul class="stats">
+            <li><strong>+50%</strong><span>de procesos digitalizados en EMCALI</span></li>
+            <li><strong>−25%</strong><span>en tiempo de planeación logística</span></li>
+            <li><strong>6+</strong><span>proyectos en UX/UI, producto y realidad aumentada</span></li>
+          </ul>
+          <ul class="tags">
+            <li>User Research</li><li>Wireframes</li><li>Prototipado</li><li>Usability Testing</li>
+            <li>Service Blueprint</li><li>Customer Journey</li><li>Figma</li><li>AR / VR</li><li>Español · Inglés</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="gallery">
+          <figure>
+            <img src="img/investigacion.jpg" alt="Sesión de investigación con usuarios" loading="lazy" />
+            <figcaption><strong>Investigación con usuarios</strong>Sesiones para entender cómo piensan y deciden las personas.</figcaption>
+          </figure>
+          <figure>
+            <img src="img/pruebas-usabilidad.jpg" alt="Prueba de usabilidad de un prototipo" loading="lazy" />
+            <figcaption><strong>Pruebas de usabilidad</strong>Validación de prototipos con usuarios reales antes de desarrollar.</figcaption>
+          </figure>
+          <figure>
+            <img src="img/emcali-documentacion.jpg" alt="Documentación de procesos y requerimientos para EMCALI" loading="lazy" />
+            <figcaption><strong>Procesos y requerimientos</strong>Flujos y requerimientos funcionales que guían el desarrollo.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section section--alt" id="servicios">
+      <div class="container">
+        <h2 class="section__title"><span>02</span> Servicios</h2>
+        <p class="section__intro">Soluciones de diseño de principio a fin, pensadas para que tu producto sea fácil de usar y cumpla los objetivos de tu negocio.</p>
+        <div class="services">
+          <article class="service">
+            <span class="service__num">A</span>
+            <h3>Investigación UX</h3>
+            <p>Descubre qué necesitan realmente tus usuarios. Entrevistas, benchmarking, journey maps y pruebas de usabilidad que reducen el riesgo antes de construir.</p>
+          </article>
+          <article class="service">
+            <span class="service__num">B</span>
+            <h3>Diseño UI</h3>
+            <p>Interfaces web y móviles modernas, consistentes y accesibles, entregadas en archivos ordenados y listos para desarrollo.</p>
+          </article>
+          <article class="service">
+            <span class="service__num">C</span>
+            <h3>Prototipos y MVP</h3>
+            <p>Valida tu idea con flujos y prototipos interactivos en Figma antes de invertir en código. Ideal para startups y nuevos productos.</p>
+          </article>
+          <article class="service">
+            <span class="service__num">D</span>
+            <h3>Experiencias interactivas</h3>
+            <p>Experiencias en realidad aumentada y activaciones interactivas que sorprenden y conectan a tu marca con su audiencia.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="section" id="proyectos">
+      <div class="container">
+        <h2 class="section__title"><span>03</span> Proyectos destacados</h2>
+        <p class="section__intro">Casos reales donde la investigación y el diseño se tradujeron en resultados medibles.</p>
+        <div class="projects">
+          <article class="project">
+            <img src="img/emcali.jpg" alt="Pantallas móviles de la app de Gestión del Cambio de EMCALI" loading="lazy" />
+            <div class="project__info">
+              <p class="project__meta">EMCALI · UX/UI · Product Design · 2025</p>
+              <h3>Automatización del Modelo de Gestión del Cambio</h3>
+              <p>Lideré de punta a punta la investigación y el diseño que permitieron digitalizar más del 50% de los procesos: requerimientos, flujos, wireframes, UI móvil, prototipos y pruebas de usabilidad, en coordinación con TI, Comunicaciones y la PMO.</p>
+            </div>
+          </article>
+          <article class="project">
+            <img src="img/enerbit.jpg" alt="Equipo del proyecto enerBit" loading="lazy" />
+            <div class="project__info">
+              <p class="project__meta">enerBit · UX Research · MVP</p>
+              <h3>De la investigación al MVP para el sector energético</h3>
+              <p>Lideré la investigación UX en un equipo de 7 personas: conduje el 60% de las entrevistas y pruebas, analicé 7 empresas del sector y convertí los hallazgos en Service Blueprint, Customer Journey y wireframes en Figma.</p>
+              <a class="project__link" href="https://www.behance.net/gallery/185585443/enerBit-UI-UX-Web-development" target="_blank" rel="noopener">Ver caso en Behance ↗</a>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__cover" aria-hidden="true"><span>UI</span></div>
+            <div class="project__info">
+              <p class="project__meta">Universidad Icesi · UI Design · Cliente real</p>
+              <h3>Rediseño de interfaz orientado al cliente</h3>
+              <p>Ante cambios solicitados en la recta final, gestionamos expectativas, priorizamos los ajustes y entregamos a tiempo, con una valoración muy positiva del cliente.</p>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__media">
+              <video src="img/spotify-ooh.mp4" poster="img/spotify-ooh-poster.jpg" autoplay muted loop playsinline controls preload="metadata" aria-label="Video de la experiencia Spotify OOH"></video>
+            </div>
+            <div class="project__info">
+              <p class="project__meta">Spotify · Experiencia interactiva · OOH</p>
+              <h3>Spotify OOH Experience</h3>
+              <p>Activación interactiva con un controlador físico hecho a medida: las personas se toman una foto con filtros inspirados en Spotify y la descargan al instante con un código QR. Diseño de interacción, interfaz y prototipo funcional.</p>
+              <a class="project__link" href="https://www.behance.net/gallery/163450445/Spotify-OOH-Experience" target="_blank" rel="noopener">Ver caso en Behance ↗</a>
+            </div>
+          </article>
+        </div>
+
+        <h3 class="subhead">Más proyectos</h3>
+        <div class="minis">
+          <a class="mini" href="https://www.behance.net/gallery/193637525/GluCloud-AR-experience-project" target="_blank" rel="noopener">
+            <div class="mini__cover mini__cover--1"><span>AR</span></div>
+            <div class="mini__body">
+              <p class="project__meta">Realidad aumentada</p>
+              <h4>GluCloud AR Experience</h4>
+              <p>Experiencia en realidad aumentada diseñada desde el concepto hasta el prototipo funcional.</p>
+              <span class="project__link">Ver en Behance ↗</span>
+            </div>
+          </a>
+          <a class="mini" href="https://www.behance.net/gallery/138562343/App-DiscoverMe" target="_blank" rel="noopener">
+            <div class="mini__cover mini__cover--2"><span>APP</span></div>
+            <div class="mini__body">
+              <p class="project__meta">Diseño de app</p>
+              <h4>DiscoverMe</h4>
+              <p>Diseño UX/UI de una app móvil, desde la arquitectura de información hasta las pantallas finales.</p>
+              <span class="project__link">Ver en Behance ↗</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROPUESTA -->
+    <section class="section section--dark" id="propuesta">
+      <div class="container proposal">
+        <div class="proposal__intro">
+          <h2 class="section__title section__title--light"><span>04</span> Hagamos realidad tu proyecto</h2>
+          <p>¿Tienes una idea, un producto por mejorar o una oferta laboral? Cuéntame lo esencial y te respondo en menos de 48 horas con los siguientes pasos.</p>
+        </div>
+        <form class="form" id="proposal-form" novalidate>
+          <div class="form__row">
+            <label>Nombre
+              <input type="text" name="nombre" required autocomplete="name" placeholder="Tu nombre" />
+            </label>
+            <label>Correo
+              <input type="email" name="email" required autocomplete="email" placeholder="tu@correo.com" />
+            </label>
+          </div>
+          <div class="form__row">
+            <label>¿Qué necesitas?
+              <select name="servicio" required>
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option>Investigación UX</option>
+                <option>Diseño UI</option>
+                <option>Prototipo / MVP</option>
+                <option>Experiencia interactiva (AR/VR)</option>
+                <option>Oferta de empleo</option>
+                <option>Otro</option>
+              </select>
+            </label>
+            <label>Presupuesto <small>(opcional)</small>
+              <input type="text" name="presupuesto" placeholder="Ej. 1.500.000 COP" />
+            </label>
+          </div>
+          <label>Tu propuesta
+            <textarea name="mensaje" rows="5" required placeholder="Describe tu proyecto, objetivos y tiempos"></textarea>
+          </label>
+          <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off" />
+          <button type="submit" class="btn btn--light">Enviar propuesta</button>
+          <p class="form__status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section" id="contacto">
+      <div class="container">
+        <h2 class="section__title"><span>05</span> Hablemos</h2>
+        <div class="contact">
+          <a class="contact__item" href="mailto:santgm5@hotmail.com">
+            <span>Correo</span><strong>santgm5@hotmail.com</strong>
+          </a>
+          <a class="contact__item" href="https://www.linkedin.com/in/santiago-gomez5/" target="_blank" rel="noopener">
+            <span>LinkedIn</span><strong>/in/santiago-gomez5 ↗</strong>
+          </a>
+          <a class="contact__item" href="https://www.behance.net/santiagogomez8" target="_blank" rel="noopener">
+            <span>Portafolio</span><strong>Behance ↗</strong>
+          </a>
+          <div class="contact__item">
+            <span>Ubicación</span><strong>Cali, Colombia · Remoto</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="logo">SGM<span>STUDIO</span></span>
+      <p>© <span id="year"></span> Santiago Gómez. Diseño centrado en personas, desde Cali para el mundo.</p>
+      <a href="#top">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
